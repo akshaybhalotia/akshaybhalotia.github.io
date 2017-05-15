@@ -1,0 +1,42 @@
+* {
+	color: #777;
+}
+html, body {
+	height: 100%;
+}
+.main {
+	background-color: #25f;
+	height: 100%;
+}
+.card {
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 4px 4px 2px 1px rgba(47, 47, 47, 0.5);
+	height: 400px;
+	padding: 0 40px !important;
+	text-align: center;
+	
+	position: relative;
+  	top: 50%;
+	transform: translateY(-50%);
+}
+.card h2 {
+	margin: 72px 0 10px;
+}
+.card p {
+	margin: 32px 0 16px;
+}
+.links {
+	margin-top: 72px;
+}
+.links a {
+	margin: 0 10px;
+}
+.links img {
+	height: 40px;
+}
+@media screen and (max-width: 400px) {
+	.links img {
+		height: 28px;
+	}
+}
